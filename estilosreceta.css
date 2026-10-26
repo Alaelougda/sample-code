@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(fondoreceta.jpg);
+    margin: 0;
+    padding: 20px;
+    color: #333;}
+
+header {
+    background-color: #ffffff;
+    border: 2px solid #555;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;}
+
+header h1 {
+    margin: 0;
+    color: #333;}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 10px;}    
+
+header a {
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    background-color: #555;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #555;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;}
+
+article {
+    background-color: #ffffff;
+    border: 2px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;}
+
+article h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 0;}
+
+article img {
+    display: block;
+    max-width: 250px;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 50%;
+    border: 3px solid #ddd;}
+
+article a {
+    display: inline-block;
+    background-color: #444;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;}
+
+table, th, td {
+    border: 1px solid #333;}
+
+th, td {
+    padding: 8px;
+    text-align: left;}
+
+th {
+    background-color: #eee;}
+
+ol {
+    padding-left: 20px;
+    line-height: 1.6;}
+
+ol li {
+    margin-bottom: 8px;}
+
+footer {
+    background-color: #ffffff;
+    border: 2px solid #555;
+    height: 40px;
+    margin-top: 20px;}
